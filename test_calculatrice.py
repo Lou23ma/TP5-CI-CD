@@ -12,3 +12,7 @@ def test_division():
 
     with pytest.raises(ValueError):
         division(10, 0)
+
+def test_soustraction():
+    from calculatrice import soustraction
+    assert soustraction(5, 3) == 2
